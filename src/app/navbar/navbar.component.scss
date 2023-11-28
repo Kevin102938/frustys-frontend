@@ -1,0 +1,32 @@
+// Reset des styles par défaut
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333333;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+
+  li {
+    margin-right: 20px;
+
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight: bold;
+
+      &:hover {
+        color: #ffcc00;
+      }
+    }
+  }
+
+}

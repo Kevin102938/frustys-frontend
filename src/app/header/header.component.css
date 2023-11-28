@@ -1,0 +1,11 @@
+.header-logo {
+  text-align: center;
+}
+
+.header-logo img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
